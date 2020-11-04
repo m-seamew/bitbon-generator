@@ -1,0 +1,132 @@
+.facebook__heder .header__leftside{
+  font-size: 83px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+.facebook{
+  overflow: hidden;
+}
+
+.facebook__heder .header__lefttside-img{
+  margin-top: -1px;
+}
+
+.facebook__heder .header__rightside-text{
+  max-width: 490px;
+  line-height: 40px;
+  color: rgba(255,255,255, 0.8);
+}
+
+.facebook__container{
+  padding-left: 325px;
+  padding-right: 322px;
+  position: relative;
+  z-index: 2;
+}
+
+.facebook__heder .header__lefttside-text {
+  margin-right: 30px;
+  margin-left: 105px;
+  margin-top: -4px;
+}
+  
+  .facebook__heder .header__rightside{
+  opacity: 0.6;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  }
+
+
+
+.facebook__heder{
+  padding-top: 100px;
+  position: relative;
+  z-index: 2;
+}
+
+.facebook__heder .header__leftside{
+  padding-top: 25px;
+  padding-bottom: 29px; 
+}
+
+
+.facebook .itemlist__title{
+  font-size: 69px;
+  font-weight: 700;
+}
+
+.facebook .itemlist__ticker{
+  font-size: 52px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.facebook .itemlist__curprice{
+  font-size: 71px;
+  font-weight: 700;
+}
+
+.facebook .itemlist__change{
+  font-size: 39px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.facebook .facebook__item:not(:first-child){
+  margin-top: 46px;
+}
+
+.facebook .facebook__item{
+  margin-top: 95px;
+}
+
+.facebook .itemlist__img{
+  width: 199px;
+  height: 199px;
+  margin-right: 45px;
+}
+
+.facebook__bitbontoday-logo{
+  width: 242px;
+  margin-right: 70px;
+  flex-shrink: 0;
+}
+
+.facebook__footer{
+  display: flex;
+  margin-top: 105px !important;
+}
+
+.facebook .footer__text{
+  color: rgba(255,255,255, 1);
+  margin-top: -6px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.facebook__img{
+  position: absolute;
+  z-index: 1;
+}
+
+.facebook__img--bottom{
+  bottom: -130px;
+  right: 295px;
+}
+
+.facebook__img--center{
+  top: 480px;
+  right: 667px;
+}
+
+.facebook__img--left{
+  top: 1130px;
+  left: -60px;
+}
+
+.facebook .itemlist__rightside--title{
+  padding: 25px 30px;
+} 

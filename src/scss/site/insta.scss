@@ -1,0 +1,126 @@
+.insta{
+  width: 1242px;
+  height: 2691px;
+  background-image: linear-gradient(173deg, #1084ba 0%, #11c2d6 100%);
+  position: relative;
+ // display: none;
+}
+
+.insta__img{
+  position: absolute;
+  z-index: 1;
+}
+.insta__img--top{
+  top: 40px;
+  left: 85px;
+}
+.insta__img--bottom{
+  bottom: 170px;
+  right: 45px;
+}
+
+.insta .itemlist__rightside--title{
+  padding: 23px 37px;
+}
+
+.insta__img--center{
+  top: 910px;
+  right: 70px;
+}
+
+.insta__img--left{
+  top: 1624px;
+  left: 60px;
+}
+
+.insta__heder .header__leftside{
+font-size: 83px;
+font-weight: 900;
+padding-top: 21px;
+padding-bottom: 18px;
+}
+
+.insta .header__lefttside-text{
+  margin-right: 25px;
+  margin-top: -10px;
+  }
+
+.insta__heder .header__lefttside-img{
+  margin-top: 3px;
+}
+
+.insta__heder .header__rightside{
+opacity: 0.6;
+color: #ffffff;
+font-size: 30px;
+font-weight: 400;
+line-height: 40px;
+max-width: 540px;
+}
+
+.insta__heder{
+  padding-top: 560px;
+}
+
+.insta__container{
+  padding-left: 79px;
+  padding-right: 77px;
+  position: relative;
+  z-index: 2;
+}
+
+.insta .itemlist__title{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.insta .itemlist__ticker{
+  font-size: 45px;
+  margin-top: 14px;
+  font-weight: 400;
+}
+
+.insta .itemlist__curprice{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.insta .itemlist__change{
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.insta .insta__item:not(:first-child){
+  margin-top: 40px;
+}
+
+.insta .insta__item:first-child{
+  margin-top: 128px;
+}
+
+.insta .itemlist__img{
+  width: 170px;
+  height: 170px;
+  margin-right: 38px;
+  margin-left: 25px;
+}
+
+.insta__bitbontoday-logo{
+  width: 242px;
+  margin-right: 68px;
+  flex-shrink: 0;
+}
+
+
+.insta__footer{
+  display: flex;
+  margin-top: 172px !important;
+}
+
+.insta .footer__text{
+  line-height: 40px;
+  margin-top: -6px;
+  font-size: 30px;
+  font-weight: 400;
+}

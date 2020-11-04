@@ -1,0 +1,213 @@
+.twitter{
+  width: 800px;
+  height: 512px;
+  background-image: linear-gradient(173deg, #1084ba 0%, #11c2d6 100%);
+  position: relative;
+  overflow: hidden;
+ // display: none;
+}
+
+.twitter .itemist__bitcoin{
+  order:1;
+}
+
+.twitter .itemist__gold{
+ order: 2;
+}
+
+.twitter .itemist__ethereum{
+  order: 3
+}
+
+.twitter .itemist__sp500{
+  order: 4;
+}
+
+.twitter .itemist__bitbon{
+  order: 5;
+}
+
+.twitter .twitter__footer{
+  order: 7;
+}
+
+.twitter__heder{
+  padding-top: 55px;
+}
+
+.twitter .header__img-box{
+  width: 33px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.twitter .header__lefttside-img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.twitter__heder .header__leftside{
+  font-size: 37px;
+  font-weight: 900;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+.twitter__heder .header__lefttside-text{
+  margin-right: 18px;
+  margin-left: 43px;
+  margin-top: -2px;
+}
+
+.twitter__heder .header__lefttside-img{
+  margin-top: -6px;
+  margin-right: 20px;
+}
+
+.twitter__heder .header__rightside{
+color: rgba(255,255,255, 0.6);
+font-size: 13px;
+font-weight: 400;
+line-height: 17px;
+max-width: 305px;
+}
+
+.twitter .header__rightside-text{
+  margin-left: 20px;
+}
+
+.twitter__container{
+  padding-left: 38px;
+  padding-right: 38px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.twitter .itemlist__title{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.twitter .itemlist__ticker{
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 7px;
+}
+
+.twitter .itemlist__curprice{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.twitter .itemlist__change{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.twitter .twitter__item:nth-child(n+2){
+  margin-top: 15px;
+}
+
+.twitter .twitter__item:nth-child(1){
+  margin-top: 59px;
+}
+
+.twitter .twitter__item:nth-child(4){
+  margin-top: 59px;
+}
+
+.twitter .itemlist__img{
+  width: 68px;
+  height: 68px;
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
+.twitter__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.twitter__item{
+  flex: 0 0 calc(50% - 25px);
+}
+
+.twitter__bitbontoday-logo{
+  margin-left: 11px;
+  width: 58px;
+  margin-right: 17px;
+  flex-shrink: 0;
+}
+
+.twitter__footer{
+  display: flex;
+  align-items:center
+}
+
+.insta__footer{
+  display: flex;
+  margin-top: 165px !important;
+}
+
+.twitter .footer__text{
+  color: rgba(255,255,255, 0.8);
+  line-height: 15px;
+  margin-top: 22px;
+  font-size: 11px;
+  font-weight: 400;
+  max-width: 250px;
+}
+
+.twitter .itemlist__rightside--title{
+  padding: 10px 25px;
+  border-radius: 8px;
+} 
+
+.twitter__img-container--top{
+  width: 131px;
+  height: 131px;
+}
+
+.twitter__img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.twitter__img--top{
+  position: absolute;
+  z-index: 1;
+  bottom: -35px;
+  left: 175px;
+  transform: scaleX(-1);
+}
+
+.twitter__img-container--bottom{
+  width: 150px;
+}
+
+.twitter__img--bottom{
+  position: absolute;
+  z-index: 1;
+  top: -8px;
+  right: 80px;
+}
+
+.twitter__img-container--right-bottom{
+  width: 121px;
+  height: 113px;
+}
+
+.twitter__img--right-bottom{
+  position: absolute;
+  z-index: 1;
+  bottom: -5px;
+  right: -45px;
+}
+
+
